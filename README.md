@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Assignment_4 Code Quiz
 
 This code quiz is build using HTML,CSS and Javascript
@@ -13,4 +11,4 @@ function of this quiz:
 
 Deployed application link: https://prakritirajbhandari.github.io/Assignment_4/.
 
-![](./images/correct.jpg)
+![](./images/correct.png)
