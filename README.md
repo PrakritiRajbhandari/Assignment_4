@@ -1,8 +1,10 @@
 # Assignment_4 Code Quiz
 
-This code quiz is build using HTML,CSS and Javascript
+![](./images/Home.png)
 
-function of this quiz:
+This code quiz is build using HTML,CSS and Javascript.
+
+Function of this quiz:
 
 1. When the answer is correct you will score 10 points
 2. When the answer is wrong your points will be decrease by 5.
@@ -11,4 +13,9 @@ function of this quiz:
 
 Deployed application link: https://prakritirajbhandari.github.io/Assignment_4/.
 
+Screenshot:
+![](./images/game.png)
+![](./images/game1.png)
 ![](./images/correct.png)
+![](./images/wrong.png)
+![](./images/score.png)
