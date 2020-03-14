@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Code Quiz</title>
-    <!-- CSS Reference -->
     <link
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Krona+One|Pacifico&display=swap"
       rel="stylesheet"
@@ -24,79 +23,31 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="Quiz-time-left" class="my-5 "></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row hud mb-5">
-          <div class="col-md-6 text-center">
-            <div id="hud-item">
-              <p class="hud-prefix">
-                Question
-              </p>
-              <h1 class="hud-main-text" id="questionCounter"></h1>
-            </div>
-          </div>
-          <div class="col-md-6 text-center">
-            <div id="hud-item">
-              <p class="hud-prefix">
-                Score
-              </p>
-              <h1 class="hud-main-text" id="score">
-                0
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container Quiz">
       <div class="row my-5">
-        <div id="question-container " class="hide">
-          <div id="question" class="px-3 mb-3">Question</div>
-          <div id="answer-btn" class="btn-grid px-3">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
-          </div>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-md-12 text-center">
-          <div class="controls px-3 mb-5">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
-            <button id="finish-btn" class="Finish-btn btn hide">Finish</button>
-            <div class="text" id="text">
-              <p>
-                Correct Answer: 10 Points <br />
-                Wrong Answer: -5 Points
-              </p>
-            </div>
+          <div id="home" class="text-center flex-column">
+            <h1>Code Quiz</h1>
+            <a class="btn" href="./index.html">Play</a>
+            <a class="btn" href="./highscores.html">High Scores</a>
           </div>
         </div>
       </div>
     </div>
-  </body>
 
-  <script src="script.js"></script>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
