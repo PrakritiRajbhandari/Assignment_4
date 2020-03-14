@@ -1,6 +1,6 @@
 # Assignment_4 Code Quiz
 
-![](./images/Home.png)
+![](./images/home.png)
 
 This code quiz is build using HTML,CSS and Javascript.
 
