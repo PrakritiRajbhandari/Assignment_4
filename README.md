@@ -1,4 +1,4 @@
-# Assignment_4 Code Quiz
+ Code Quiz
 
 ![](./images/home.png)
 
