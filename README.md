@@ -11,7 +11,8 @@ Function of this quiz:
 3. Score can be saved in the leaderboard.
 4. Highest score can be viewed.
 
-Deployed application link: https://prakritirajbhandari.github.io/Assignment_4/.
+Deployed application link: https://prakritirajbhandari.github.io/Code-Quiz/
+https://github.com/PrakritiRajbhandari/Code-Quiz
 
 Screenshot:
 ![](./images/game.png)
